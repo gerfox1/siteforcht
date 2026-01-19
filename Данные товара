@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Смартфон",
+        "description": "Мощный смартфон с отличной камерой",
+        "price": 29990,
+        "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400"
+    },
+    {
+        "id": 2,
+        "name": "Ноутбук",
+        "description": "Легкий и мощный ноутбук для работы",
+        "price": 64990,
+        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w-400"
+    },
+    {
+        "id": 3,
+        "name": "Наушники",
+        "description": "Беспроводные наушники с шумоподавлением",
+        "price": 12990,
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w-400"
+    },
+    {
+        "id": 4,
+        "name": "Часы",
+        "description": "Умные часы с фитнес-трекером",
+        "price": 19990,
+        "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w-400"
+    },
+    {
+        "id": 5,
+        "name": "Планшет",
+        "description": "Планшет для развлечений и работы",
+        "price": 34990,
+        "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w-400"
+    },
+    {
+        "id": 6,
+        "name": "Фотокамера",
+        "description": "Зеркальная камера для профессиональной съемки",
+        "price": 89990,
+        "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w-400"
+    }
+]
