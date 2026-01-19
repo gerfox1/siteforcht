@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-store"></i> Магазин</h1>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="#products">Товары</a>
+                <a href="cart.html" id="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    Корзина (<span id="cart-count">0</span>)
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <h2>Добро пожаловать в наш магазин</h2>
+            <p>Лучшие товары по отличным ценам</p>
+        </div>
+    </section>
+
+    <!-- Товары -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Наши товары</h2>
+            <div id="products-container" class="products-grid">
+                <!-- Товары загружаются через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Онлайн-магазин. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
